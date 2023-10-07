@@ -1,0 +1,11 @@
+service: () -> {
+    buildNFT: () -> (text) query;
+    getDate: () -> (text) query;
+    getMessage: () -> (text) query;
+    getPrice: () -> (text) query;
+    getReservation: () -> (text) query;
+    setDate: (text) -> (text) query;
+    setMessage: (text) -> ();
+    setPrice: (text) -> (text) query;
+    setReservation: (text) -> (text) query;
+}

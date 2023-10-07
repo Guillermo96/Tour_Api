@@ -1,0 +1,12 @@
+{
+    "canisters": {
+        "tour_api": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle tour_api",
+            "wasm": ".azle/tour_api/tour_api.wasm",
+            "gzip": true
+        }
+    }
+}
